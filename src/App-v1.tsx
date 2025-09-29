@@ -2,7 +2,7 @@ import {Dispatch, ReactNode, Ref, SetStateAction, useCallback, useEffect, useRef
 import Stars from "./Stars";
 
 const apiKey = '9f600f9f'
-const api = 'http://www.omdbapi.com/?apikey=9f600f9f&'
+const api = 'https://www.omdbapi.com/?apikey=9f600f9f&'
 
 type Movie = {
     imdbID: string,
